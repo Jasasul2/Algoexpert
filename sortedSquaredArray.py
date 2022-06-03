@@ -4,11 +4,25 @@
 # O(n * log(n)) time, O(n) space 
 # Actually faster 
 def get_sorted_square_array(array):
+    """ returns a sorted array of squares using list comprehensions
+    Args:
+        array (int[ ]) : given array (needs to be sorted)
+
+    Returns:
+        int[ ] : sorted array of squares
+    """
     return sorted([x * x for x in array])
 
 # O(n) time, O(n) space 
 # Actually slower
 def get_sorted_square_array_faster(array):
+    """ returns a sorted array of squares using pointer comparison
+    Args:
+        array (int[ ]) : given array (needs to be sorted)
+
+    Returns:
+        int[ ] : sorted array of squares
+    """
     squares = [0 for _ in array]
     smallest_index = 0
     largest_index = len(array) - 1
