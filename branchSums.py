@@ -21,6 +21,14 @@ def branch_sum(root, sum_so_far, sum_list):
 
 # O(n) time, O(n) space where n is the number of nodes in the binary tree 
 def branchSums(root):
+    """ returns a list of sum of all branches in the binary tree
+        
+    Args:
+        root (BinaryTree) : given tree
+
+    Returns:
+        int[ ] : sums of all branches in the binary tree
+    """
     sum_list = []
     branch_sum(root, 0, sum_list)
     return sum_list
