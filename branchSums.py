@@ -9,13 +9,13 @@ class BinaryTree:
         self.right = None
 
 
-def branch_sum(root, sum_so_far, sum_list):
-    sum_so_far += root.value
-    if(root.left):
-        branch_sum(root.left, sum_so_far, sum_list)
-    if(root.right):
-        branch_sum(root.right, sum_so_far, sum_list)
-    if(not root.left and not root.right):
+def branch_sum(node, sum_so_far, sum_list):
+    sum_so_far += node.value
+    if(node.left):
+        branch_sum(node.left, sum_so_far, sum_list)
+    if(node.right):
+        branch_sum(node.right, sum_so_far, sum_list)
+    if(not node.left and not node.right):
         sum_list.append(sum_so_far)
     
 
