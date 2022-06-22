@@ -10,6 +10,14 @@ class LinkedList:
 
 # O(n) time, O(1) space (only the space given)
 def removeDuplicatesFromLinkedList(linkedList):
+    """ Removes all duplicates from given sorted linkedList
+        
+    Args:
+        linkedList (LinkedList) : head of the given LinkedList 
+
+    Returns:
+        LinkedList : given linkedList where no values of nodes repeat
+    """
     node = linkedList
     while(node.next):
         if(node.value == node.next.value):
