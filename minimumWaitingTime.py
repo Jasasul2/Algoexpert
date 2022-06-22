@@ -3,12 +3,11 @@
 # Task : https://www.algoexpert.io/questions/minimum-waiting-time
 
 # O(n logn) time, O(1) space (only the space given)
- 
 def minimumWaitingTime(queries):
     """ returns the minimum waiting time of queries
         
     Args:
-        array (int[ ]) : given queries
+        queries (int[ ]) : given queries
 
     Returns:
         int: the minimum waiting time of queries
