@@ -5,12 +5,13 @@
 """
 
 import time 
-from nonConstructibleChange import non_constructible_change, can_be_constructed, non_constructible_change_faster
+from findThreeLargestNumbers import find_three_largest_numbers, find_three_largest_numbers_alt
+from random import randint
 
-input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+input_array = [randint(0, 10000000) for _ in range(1000000)]
 start_time = time.time()
-print(non_constructible_change(input_array))
+print(find_three_largest_numbers(input_array))
 print("--- %s seconds ---" % (time.time() - start_time))
 start_time = time.time()
-print(non_constructible_change_faster(input_array))
+print(find_three_largest_numbers_alt(input_array))
 print("--- %s seconds ---" % (time.time() - start_time))
