@@ -2,6 +2,7 @@
 # Date : 22.6.2022
 # Task : https://www.algoexpert.io/questions/tandem-bicycle
 
+
 # O(n logn) time, O(1) space (only the space given)
 def tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
     """ Finds the biggest or smallest tandem speed 

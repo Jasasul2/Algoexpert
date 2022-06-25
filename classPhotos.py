@@ -2,6 +2,7 @@
 # Date : 22.6.2022
 # Task : https://www.algoexpert.io/questions/class-photos
 
+
 # O(n logn) time, O(1) space (only the space given)
 def classPhotos(redShirtHeights, blueShirtHeights):
     """ viz. the task

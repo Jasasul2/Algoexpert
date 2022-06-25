@@ -2,6 +2,7 @@
 # Date : 22.6.2022
 # Task : https://www.algoexpert.io/questions/product-sum
 
+
 # O(n) time, O(d) space, where d is the maximum depth of a special array
 def productSum(array, depth = 1):
     """ Returns the product sum of an array with special arrays

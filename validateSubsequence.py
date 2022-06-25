@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška
 # Date : 3.6.2022
+# Task : https://www.algoexpert.io/questions/validate-subsequence
+
 
 # O(n) time, O(1) space
 def is_valid_subsequence(array, sequence):

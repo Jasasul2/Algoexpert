@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška 
 # Date : 4.6.2022
+# Task : https://www.algoexpert.io/questions/find-closest-value-in-bst
+
 
 # Solution 1 ---------------------------------
 # O(logn) time, O(logn) space

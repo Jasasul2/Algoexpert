@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška 
 # Date : 4.6.2022
+# Task : https://www.algoexpert.io/questions/non-constructible-change
+
 
 # Solution 1 ---------------------------------
 # nonsesical bruteforce algorithm 

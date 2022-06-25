@@ -1,8 +1,9 @@
 # Author : Ondřej Maceška
 # Date : 4.6.2022
+# Task : https://www.algoexpert.io/questions/tournament-winner
+
 
 # O(n) time, O(k) space, where n is the number of competitions and k is the number of teams
-
 def tournamentWinner(competitions, results):
     """ visit https://www.algoexpert.io/questions/tournament-winner for the assignment
 

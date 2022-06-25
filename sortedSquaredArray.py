@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška 
 # Date : 3.6.2022
+# Task : https://www.algoexpert.io/questions/sorted-squared-array
+
 
 # O(n * log(n)) time, O(n) space 
 # Actually faster 

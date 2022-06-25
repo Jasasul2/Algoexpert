@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška 
 # Date : 3.6.2022
+# Task : https://www.algoexpert.io/questions/two-number-sum
+
 
 # O(n) time, O(n) space 
 def two_number_sum(array, target_sum):

@@ -5,7 +5,7 @@
 
 # O(n^2) time, O(1) space (only the space given)
 def insertion_sort(array):
-    """ Gets an array and sorts it with insertion sort algorithm.
+    """ Gets an array and sorts it with the insertion sort algorithm.
     Args:
         array (int[ ]) : given array
 

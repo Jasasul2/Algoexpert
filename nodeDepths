@@ -1,5 +1,7 @@
 # Author : Ondřej Maceška 
 # Date : 9.6.2022
+# Task : https://www.algoexpert.io/questions/node-depths
+
 
 # O(n) time, O(h) space where n is the number of nodes in the binary tree and h is the height of the three
 # Solution 1 - iterative, using stack 
