@@ -4,7 +4,7 @@
 
 
 # O(n) time, O(1) space
-def is_valid_subsequence(array, sequence):
+def is_valid_subsequence(array, sequence) -> bool:
     """ Checks whether the given sequence 
     is a subsequence of the given array
     Args:

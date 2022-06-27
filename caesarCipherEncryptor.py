@@ -3,7 +3,7 @@
 # Task : https://www.algoexpert.io/questions/caesar-cipher-encryptor
 
 # O(n) time, O(n) space 
-def caesar_cipher_encryptor(string, key):
+def caesar_cipher_encryptor(string:str, key:int):
     """ encrypts a string using a caesar cipher
         
     Args:

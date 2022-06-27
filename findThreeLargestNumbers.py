@@ -5,6 +5,14 @@
 
 # O(n) time, O(1) space (only the space given)
 def find_three_largest_numbers_alt(array):
+    """ Finds and returns an array of three largest numbers from the given array
+        
+    Args:
+        array (int[]) : the given array
+
+    Returns:
+        int[]: list containing the three largest numbers
+    """
     max_three = []
     for _ in range(3):
         largest = max(array)

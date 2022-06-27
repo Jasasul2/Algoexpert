@@ -11,7 +11,7 @@ class BinaryTree:
         self.right = None
 
 
-def branch_sum(node, sum_so_far, sum_list):
+def branch_sum(node, sum_so_far:int, sum_list):
     sum_so_far += node.value
     if(node.left):
         branch_sum(node.left, sum_so_far, sum_list)
