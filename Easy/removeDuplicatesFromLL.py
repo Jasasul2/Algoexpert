@@ -9,7 +9,7 @@ class LinkedList:
         self.next = None
 
 # O(n) time, O(1) space (only the space given)
-def removeDuplicatesFromLinkedList(linkedList):
+def remove_duplicates_from_linked_list(linkedList):
     """ Removes all duplicates from given sorted linkedList
         
     Args:

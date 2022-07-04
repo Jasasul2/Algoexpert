@@ -5,7 +5,7 @@
 
 # O(n) time, O(h) space where n is the number of nodes in the binary tree and h is the height of the three
 # Solution 1 - iterative, using stack 
-def nodeDepths(root):
+def node_depths(root):
     currentDepth = 0
     currentDepthSum = 0
 
@@ -24,10 +24,10 @@ def nodeDepths(root):
 
 # O(n) time, O(h) space where n is the number of nodes in the binary tree and h is the height of the three
 # Solution 2 - recursive, very smooth
-def nodeDepths(root, depth = 0):
+def node_depths(root, depth = 0):
     if(root == None):
         return 0
-    return depth + nodeDepths(root.left, depth + 1) + nodeDepths(root.right, depth + 1)
+    return depth + node_depths(root.left, depth + 1) + node_depths(root.right, depth + 1)
     
 # This is the class of the input binary tree.
 class BinaryTree:

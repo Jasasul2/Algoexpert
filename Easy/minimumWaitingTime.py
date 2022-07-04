@@ -4,7 +4,7 @@
 
 
 # O(n logn) time, O(1) space (only the space given)
-def minimumWaitingTime(queries):
+def minimum_waiting_time(queries):
     """ returns the minimum waiting time of queries
         
     Args:

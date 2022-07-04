@@ -3,7 +3,7 @@
 # Task : https://www.algoexpert.io/questions/nth-fibonacci
 
 # O(n) time, O(1) space (only the space given)
-def getNthFib(n):
+def get_nth_fibonacci(n):
     """ Gets the nth number in fibonacci sequence
         
     Args:

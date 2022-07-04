@@ -4,7 +4,7 @@
 
 
 # O(n) time, O(k) space, where n is the number of competitions and k is the number of teams
-def tournamentWinner(competitions, results):
+def tournament_winner(competitions, results):
     """ visit https://www.algoexpert.io/questions/tournament-winner for the assignment
 
     Args:

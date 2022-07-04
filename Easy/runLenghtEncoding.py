@@ -4,7 +4,7 @@
 
 
 # O(n) time, O(n) space
-def runLengthEncoding(string) -> str:
+def run_length_encoding(string) -> str:
     """ Viz. the task 
         
     Args:

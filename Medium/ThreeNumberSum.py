@@ -3,7 +3,7 @@
 # Task : https://www.algoexpert.io/questions/three-number-sum
 
 # O(n^2) time, O(n) space where 
-def threeNumberSum(array, target_sum):
+def three_number_sum(array, target_sum):
     """ Finds all triplets in a given array which sum up to a given sum 
         
     Args:

@@ -4,7 +4,7 @@
 
 
 # O(n) time, O(1) space
-def firstNonRepeatingCharacter(string:str) -> int:
+def first_non_repeating_char(string:str) -> int:
     """ Returns the index of the first non-repeating character in the string
         
     Args:

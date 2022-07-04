@@ -4,7 +4,7 @@
 
 
 # O(n logn) time, O(1) space (only the space given)
-def classPhotos(redShirtHeights, blueShirtHeights):
+def class_photos(redShirtHeights, blueShirtHeights):
     """ viz. the task
         
     Args:

@@ -22,7 +22,7 @@ def branch_sum(node, sum_so_far:int, sum_list):
     
 
 # O(n) time, O(n) space where n is the number of nodes in the binary tree 
-def branchSums(root):
+def branch_sums(root):
     """ returns a list of sum of all branches in the binary tree
         
     Args:

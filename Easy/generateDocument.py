@@ -5,7 +5,7 @@
 
 # O(n + m) time, O(c) space, wehere n is the num of chars, 
 # m is the length of the document and c is a num of unique chars 
-def generateDocument(characters:str, document:str) -> bool:
+def generate_document(characters:str, document:str) -> bool:
     """ Returns True if the document can be constructed from the characters
         
     Args:

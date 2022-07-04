@@ -4,7 +4,7 @@
 
 
 # O(n logn) time, O(1) space (only the space given)
-def tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
+def tandem_bicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
     """ Finds the biggest or smallest tandem speed 
         tandem_speed(a, b) = max(a, b)
         
