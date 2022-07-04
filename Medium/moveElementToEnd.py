@@ -6,7 +6,7 @@
 def move_element_to_end(array, target):
     """ moves all elements equal to target
     Args:
-        array (int[ ]) : given array 
+        array (int[]) : given array 
         target (int) : given target
 
     Returns:

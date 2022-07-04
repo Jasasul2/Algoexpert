@@ -8,8 +8,8 @@ def smallest_difference(array_one, array_two):
     """ Finds the smallest difference between 
         one int from array_one and one int from array_two
     Args:
-        array_one (int[ ]) : given array 1
-        array_two (int[ ]) : given array 2
+        array_one (int[]) : given array 1
+        array_two (int[]) : given array 2
 
     Returns:
         int[] : two values, on from each array, having the smallest difference
