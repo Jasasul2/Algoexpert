@@ -2,13 +2,14 @@
 # Date : 11.7.2022
 # Task : https://www.algoexpert.io/questions/merge-overlapping-intervals
 
+
 # O(n * log(n)) time, O(n) space
 def merge_overlapping_intervals(intervals):
     """ Gets an array of intervals (each is represented as an array of two integers)
         Merges all intervals which overlap and returns them in an array
         
     Args:
-        array (int[int[]]) : given array of intervals
+        intervals (int[int[]]) : given array of intervals
 
     Returns:
         int[int[] : the array of merged intervals
