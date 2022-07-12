@@ -6,6 +6,7 @@
 def first_duplicate_value(array):
     """ Gets an array of integers from 1 to n where n is the length of the array
         Returns the first duplicate value
+        
     Args:
         array (int[]) : given array 
 
@@ -24,6 +25,7 @@ def first_duplicate_value(array):
 def first_duplicate_value_algoexpert(array):
     """ Gets an array of integers from 1 to n where n is the length of the array
         Returns the first duplicate value
+        
     Args:
         array (int[]) : given array 
 
