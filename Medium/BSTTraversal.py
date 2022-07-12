@@ -7,7 +7,7 @@
 
 # O(n) time, O(n) space
 def in_order_traverse(tree, array):    
-    """ fills the given array with values from the given tree in order of traverse
+    """ Fills the given array with values from the given tree in order of traverse
         
     Args:
         tree (BST) : a given BST node

@@ -12,7 +12,7 @@ class BST:
         
 # O(n) time, O(d) space, where n is the number of nodes and d is the depth of the tree
 def validate_bst(tree, max = None, min = None):
-    """ validates if a given tree is a correct BST tree
+    """ Validates if a given tree is a correct BST tree
         
     Args:
         tree (BST) : a given BST node
