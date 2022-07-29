@@ -14,7 +14,7 @@ class BST:
         self.right = right
 
 # O(n ^ 2) time, O(n) space
-def reconstructBst(preOrderTraversalValues, root = None):
+def reconstruct_bst(preOrderTraversalValues, root = None):
     """ Fills the given binary search tree with values from the given array representing a pre order of traverse
         
     Args:
@@ -40,9 +40,9 @@ def reconstructBst(preOrderTraversalValues, root = None):
         i = 1
         while(i < len(preOrderTraversalValues)):
             if(preOrderTraversalValues[i] >= value):
-                reconstructBst(preOrderTraversalValues[i:], root)
+                reconstruct_bst(preOrderTraversalValues[i:], root)
                 break 
             i += 1
-        reconstructBst(preOrderTraversalValues[1:i], root)
+        reconstruct_bst(preOrderTraversalValues[1:i], root)
         
     return root
